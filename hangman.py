@@ -1,3 +1,7 @@
+# -*- Nuha Alghamdi -*-
+# -*- nuhaalghamdi92@gmail.com -*-
+
+
 import random
 
 #list of lists
