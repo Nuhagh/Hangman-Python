@@ -144,7 +144,7 @@ while repeat=="y":
     if turns>0:
         print(word)
         print("Congratulations!")
-    #Ask the user if he wants to play again if he guessed the word correctly of finished his attempts
+    #Ask the user if he wants to play again if he guessed the word correctly or finished his attempts
     repeat=input("Play again? Press y for yes and n for no: ")
     while repeat != "n" and repeat != "y":
         repeat=input("PLEASE press y for yes and n for no: ")
