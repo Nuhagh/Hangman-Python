@@ -140,13 +140,13 @@ while repeat=="y":
             turns=turns-1
             wrong_char(turns)
 
-    #Congratulate the user if he guessed all the chars of the word correctly before finishing his attempts
+    #congratulate the user if he guessed all the chars of the word correctly before finishing his attempts
     if turns>0:
         print("-"*25)
         print("*** ",answer," ***")
         print("-"*25)
         print("Congratulations!")
-    #Ask the user if he wants to play again if he guessed the word correctly of finished his attempts
+    #ask the user if he wants to play again if he guessed the word correctly or finished his attempts
     repeat=input("Play again? Press y for yes and n for no: ")
     while repeat != "n" and repeat != "y":
         repeat=input("PLEASE press y for yes and n for no: ")
