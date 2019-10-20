@@ -31,7 +31,7 @@ def select_word():
         index=random.randint(0,len(wordlists[list_index][1])-1)
         #The selected word to be guessed by the user
         word=wordlists[list_index][1][index]
-    #Print the hint
+    #print the hint
     print("Hint: ",hint)
     return word
 
