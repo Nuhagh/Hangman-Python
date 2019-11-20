@@ -1,8 +1,7 @@
 # -*- Nuha Alghamdi -*-
 # -*- nuhaalghamdi92@gmail.com -*-
 # -*- Oct 19 2019 -*-
-# for nothing
-# another
+
 
 import random
 
